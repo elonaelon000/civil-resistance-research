@@ -31,7 +31,7 @@
 - Binnendijk & Marović, *Communist and Post-Communist Studies* (2006): https://www.sciencedirect.com/science/article/pii/S0967067X06000250 — scholarly account of security-force responses in Serbia and Ukraine.
 
 ### Armenia 2018 (ARM-2018)
-- *TIME*, April 24, 2018: https://time.com/5251995/armenia-protests-prime-minister-serzh-sargsyan-yerevan/ — initial resignation.
+- *The Guardian*, April 23, 2018: https://www.theguardian.com/world/2018/apr/23/serzh-sargsyan-resigns-as-armenias-prime-minister-after-protests — contemporary report of Sargsyan's resignation.
 - *The Guardian*, April 25, 2018: https://www.theguardian.com/world/2018/apr/25/armenia-calls-for-new-rally-after-talks-on-replacing-prime-minister-halted — post-resignation challenges. **Leader exit did not instantly conclude every contested demand.**
 
 ### Tunisia 2010–2011 (TUN-2011)
