@@ -1,6 +1,6 @@
 # Does Civil Resistance Work?
 
-***WATCH LIVE AT:WATCH LIVE AT : https://elonaelon000.github.io/civil-resistance-research/***
+***WATCH LIVE AT : https://elonaelon000.github.io/civil-resistance-research/***
 **A comparative research project on mass protest, political change, and the conditions of civil resistance — with Albania at the center.**
 
 > **Research question:** Under what conditions does civil resistance achieve policy change, leadership removal, or deeper institutional transformation — and why do other movements fail to achieve their stated demands?
