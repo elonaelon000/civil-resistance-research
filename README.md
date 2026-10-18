@@ -3,7 +3,7 @@
 **A comparative research project on mass protest, political change, and the conditions of civil resistance — with Albania at the center.**
 
 > **Research question:** Under what conditions does civil resistance achieve policy change, leadership removal, or deeper institutional transformation — and why do other movements fail to achieve their stated demands?
-
+WATCH LIVE AT : https://elonaelon000.github.io/civil-resistance-research/
 **Stage:** Research foundation / pilot dataset (not a completed study)  
 **Evidence cutoff:** 2026-10-17  
 **Cases:** 12 deliberately selected historical and contemporary cases; **not a representative global sample**.
