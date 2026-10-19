@@ -1,76 +1,111 @@
 # Does Civil Resistance Work?
 
-***WATCH LIVE AT : https://elonaelon000.github.io/civil-resistance-research/***
-**A comparative research project on mass protest, political change, and the conditions of civil resistance — with Albania at the center.**
+**An interactive, evidence-first research atlas of mass protests, political change, and the limits of civil resistance — with Albania at its center.**
 
-> **Research question:** Under what conditions does civil resistance achieve policy change, leadership removal, or deeper institutional transformation — and why do other movements fail to achieve their stated demands?
-**Stage:** Research foundation / pilot dataset (not a completed study)  
-**Evidence cutoff:** 2026-10-17  
-**Cases:** 12 deliberately selected historical and contemporary cases; **not a representative global sample**.
+[![Website](https://img.shields.io/badge/Interactive_website-LIVE-f16e9e?style=flat-square&labelColor=211820)](https://elonaelon000.github.io/civil-resistance-research/)
+[![Research](https://img.shields.io/badge/Research-pilot_dataset-79717a?style=flat-square&labelColor=211820)](#current-status)
 
-## Start here
+### [**OPEN THE LIVE RESEARCH WEBSITE ↗**](https://elonaelon000.github.io/civil-resistance-research/)
 
-This repository is designed as a serious, reproducible research project, **not** a prewritten conclusion that protests work or do not work.
+**Live demo:** https://elonaelon000.github.io/civil-resistance-research/  
+**Source code:** https://github.com/elonaelon000/civil-resistance-research
 
-- **[data/cases.csv](data/cases.csv)** — independently labeled *provisional* case records, including four Albanian episodes.
-- **[data/README.md](data/README.md)** — fields, coding definitions, and important limitations.
-- **[notebooks/01_explore.ipynb](notebooks/01_explore.ipynb)** — load, audit, visualize and compare the pilot cases with Python.
-- **[docs/METHODOLOGY.md](docs/METHODOLOGY.md)** — inclusion criteria, hypotheses, comparison design and threats to inference.
-- **[docs/SOURCES.md](docs/SOURCES.md)** — annotated case-level references and the broader academic foundation.
+The site uses GitHub Pages and reads the same `data/cases.csv` file used by the Python notebook. GitHub's **Pages build and deployment succeeded on 17 October 2026** ([deployment run](https://github.com/elonaelon000/civil-resistance-research/actions/runs/39058668202)).
 
-### Why Albania?
+## The research question
 
-Compare **1990–1992** (end of one-party rule), **1997** (armed/mixed crisis and state breakdown), **2018–2019** (education policy concessions), and **2026** (an ongoing, *unresolved* case). The four episodes should not be treated as interchangeable forms of nonviolent resistance.
+> **Under what conditions does civil resistance achieve policy change, leadership removal, or more fundamental institutional transformation — and why do seemingly similar mass movements produce different outcomes?**
 
-International comparison cases include Serbia, Armenia, Tunisia, Egypt, Belarus, Sri Lanka, Hong Kong, and Bangladesh. They were selected to illustrate **different** outcomes, not to estimate how often any outcome occurs globally.
+This project separates a movement's immediate political result from its longer-term effects. A minister being replaced, an education-policy concession, a prime minister resigning, and democratic institutional change are **not** equivalent outcomes.
 
- 
-## Run the notebook 
+## Current status
 
-Use Python 3.10+:
+*Project README updated: 19 October 2026. Research evidence cutoff: 18 October 2026.*
+
+| Component | Status |
+| --- | --- |
+| Interactive website | **Deployed** using GitHub Pages |
+| Case atlas | **12 sourced, researcher-selected pilot cases**, including four from Albania |
+| Case exploration | Search, geography and outcome filters, case details and source links |
+| Analysis | Exploratory Jupyter notebook; descriptive comparisons only |
+| Research quality | Provisional coding and source verification in progress |
+| Statistical pattern recognition | **Planned**; requires a systematic dataset such as NAVCO 2.1 |
+
+**Albania 2026 — ongoing / unresolved.** The 18 October reporting describes a sixth consecutive day of student and wider anti-government demonstrations in Tirana and continued confrontations. Prime Minister Edi Rama declined calls to resign. There is **no established final outcome**, so the movement is **not** coded as either success or failure ([Reuters, 17 October](https://www.investing.com/news/world-news/albanian-antigovernment-protesters-clash-with-police-in-tirana-4955402); [Al Jazeera, 18 October](https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily)).
+
+## Explore the live atlas
+
+The website presents:
+
+- **Albania as the main case study:** 1990–1992 political transition, 1997 mixed/armed state crisis, 2018–2019 student protests, and the ongoing 2026 movement.
+- **International comparisons:** Serbia, Armenia, Tunisia, Egypt, Belarus, Sri Lanka, Hong Kong and Bangladesh.
+- **Different outcomes:** policy concessions, leadership change, regime/system change, unfulfilled demands, state breakdown and unresolved cases.
+- **Interactive case files:** observed results, research questions, source links and explicit limitations.
+- **Research hypotheses:** questions about movement participation, institutional behavior, reform implementation and long-term effects — **not predetermined conclusions**.
+
+[**Explore the website →**](https://elonaelon000.github.io/civil-resistance-research/)
+
+## Project structure
+
+```text
+civil-resistance-research/
+├── index.html                 # GitHub Pages homepage
+├── assets/
+│   ├── site.css               # Responsive black-and-pink layout
+│   └── site.js                # CSV-powered filters and case details
+├── data/
+│   ├── cases.csv              # 12 provisional case records
+│   └── README.md              # Data dictionary and outcome codes
+├── notebooks/
+│   └── 01_explore.ipynb       # Exploratory Python analysis
+├── docs/
+│   ├── METHODOLOGY.md         # Definitions, hypotheses and limitations
+│   └── SOURCES.md             # Annotated evidence and further reading
+├── requirements.txt
+└── README.md
+```
+
+## Run it locally
+
+To preview the website, use a local HTTP server (the browser may block reading CSV from a `file://` URL):
 
 ```bash
 git clone https://github.com/elonaelon000/civil-resistance-research.git
 cd civil-resistance-research
+python3 -m http.server 8000
+```
+
+Open http://localhost:8000 in your browser.
+
+To run the Python analysis:
+
+```bash
 python3 -m pip install -r requirements.txt
 jupyter lab
 ```
 
-Open `notebooks/01_explore.ipynb`. The notebook detects whether it is launched from the repository root or the `notebooks/` folder. You can also upload the notebook and CSV to Google Colab; in that case adjust the CSV path to the uploaded file.
+Open `notebooks/01_explore.ipynb`.
 
-## Research guardrails
+## Important methodology notes
 
-1. **No global success rates from this CSV.** The cases are purposively selected, a classic source of selection bias.
-2. **Outcome ≠ cause.** A president leaving does not prove mass demonstrations alone caused the departure.
-3. **Leadership ≠ regime ≠ system.** Immediate and durable outcomes must be measured separately.
-4. **Mixed/armed cases are not evidence of successful *nonviolent* resistance.** State repression is also analytically distinct from protesters using violence.
-5. **Ongoing cases are not failures or victories.** The Albania 2026 record is a dated news snapshot.
-6. **Sources are linked, and case codes are provisional.** The next stage is independent verification and transparent adjudication.
+1. **These 12 cases are deliberately selected**, not a representative sample of global protest movements. Their distribution cannot establish worldwide success rates.
+2. **Correlation does not prove causation.** Leadership removal is not proof that protests alone caused the departure.
+3. **Ongoing movements do not have final outcomes.** The 2026 Albanian entry is a dated snapshot and must be reverified.
+4. **Mixed or armed unrest is distinct from predominantly nonviolent resistance.** State repression and protester tactics must not be conflated.
+5. **Initial victories may not last.** Evaluate policy implementation and institutional durability separately.
 
-## What comes next?
+Read the [methodology](docs/METHODOLOGY.md), [case codebook](data/README.md) and [source notes](docs/SOURCES.md).
 
-- Check each case against primary and secondary sources; record disagreements.
-- Create an event timeline for Albania 1990, 2018 and 2026 with dated claims and responses.
-- Identify a defensible comparison sample and add *unsuccessful* as well as successful campaigns.
-- Download the **[NAVCO 2.1 dataset](https://doi.org/10.7910/DVN/MHOXDV)** with its codebook and use it for a separate, systematic quantitative study. NAVCO has different inclusion rules and time coverage; **do not append these pilot records to NAVCO**.
-- Only after analysis and source review, consider an interactive presentation website.
+For a broader, systematically selected quantitative study, obtain [NAVCO 2.1](https://doi.org/10.7910/DVN/MHOXDV) and its codebook. Do **not** treat the curated pilot CSV as NAVCO data.
 
-## Repository structure
+## Next research milestones
 
-```text
-civil-resistance-research/
-├── README.md
-├── requirements.txt
-├── data/
-│   ├── cases.csv
-│   └── README.md
-├── notebooks/
-│   └── 01_explore.ipynb
-└── docs/
-    ├── METHODOLOGY.md
-    └── SOURCES.md
-```
+- Review and verify case-level chronology and competing interpretations.
+- Deepen the Albania 2018 vs. 2026 comparison; log subsequent changes without predicting outcomes.
+- Compare both successful and unsuccessful campaigns under consistent inclusion rules.
+- Expand into reproducible statistical analyses only after selecting an appropriate dataset.
+- Refine the website based on evidence and usability testing.
 
 ## Attribution
 
-Research summaries and preliminary coding: project contributors. Underlying books, articles, news coverage and datasets belong to their original authors/publishers and should be cited independently. Source hyperlinks are provided without republishing third-party copyrighted works.
+Research summaries and pilot case coding: repository contributors. Underlying news, articles, datasets and historical records remain the work of their respective authors and publishers.

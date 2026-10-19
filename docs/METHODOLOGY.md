@@ -1,7 +1,7 @@
 # Methodology — research protocol (v0.1)
 
 **Project:** Does Civil Resistance Work?  
-**Frozen pilot snapshot:** 2026-10-17  
+**Frozen pilot snapshot:** 2026-10-18  
 **Status:** design and exploratory analysis. This is **not** a peer-reviewed causal analysis, a registered protocol, or a systematic sample.
 
 ## 1. Main question and subquestions

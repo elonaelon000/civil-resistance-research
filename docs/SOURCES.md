@@ -1,6 +1,6 @@
 # Annotated sources and evidence map
 
-**Last source review:** 2026-10-17. This is an initial list, not a systematic literature review. URLs below match the pilot CSV. Case coding is *provisional*, and sources often document only part of the causal story.
+**Last source review:** 2026-10-18. This is an initial list, not a systematic literature review. URLs below match the pilot CSV. Case coding is *provisional*, and sources often document only part of the causal story.
 
 ## Scholarly foundation
 
@@ -23,8 +23,9 @@
 - Fitimtar Zekthi (2025): https://www.richtmann.org/journal/index.php/jesr/article/view/14352 — later academic evaluation of political impact and limited sustained institutional change.
 
 ### Albania 2026 (ALB-2026)
-- Associated Press, October 2026: https://apnews.com/article/2c04ef79a5bbbfcf054b161111c85b50 — protests, escalation, security-force and participant claims.
-- *The Guardian*, October 14, 2026: https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes — additional contemporaneous coverage. **No eventual outcome assigned.** Revisit sources before publicizing an updated case.
+- Reuters, October 17, 2026 (republished by Investing.com): https://www.investing.com/news/world-news/albanian-antigovernment-protesters-clash-with-police-in-tirana-4955402 — fifth day of student-led demonstrations, participant demands and reported clashes.
+- *Al Jazeera*, October 18, 2026: https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily — sixth consecutive day of demonstrations and clashes, and the prime minister's stated refusal to resign.
+- **Coding note:** The case remains `ongoing` / `unresolved`. This is a source-dated snapshot, not a claim that protests have achieved or failed their aims. Counts and accounts of particular incidents differ by source; review them separately before inferring campaign strategy or outcomes.
 
 ### Serbia 2000 (SRB-2000)
 - OSCE/ODIHR, September 2000: https://odihr.osce.org/odihr/elections/52919 — contemporary disputes about vote reporting.

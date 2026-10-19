@@ -1,6 +1,6 @@
 # Pilot case dataset — codebook
 
-**File:** `cases.csv` | **Cutoff:** 2026-10-17 | **Rows:** 12 | **Unit of analysis:** one *selected protest campaign/wave*.
+**File:** `cases.csv` | **Cutoff:** 2026-10-18 | **Rows:** 12 | **Unit of analysis:** one *selected protest campaign/wave*.
 
 These are manually coded qualitative observations intended for research practice and case-comparison design. They are **not** NAVCO data and should never be used to estimate worldwide campaign success rates or train a predictive model.
 

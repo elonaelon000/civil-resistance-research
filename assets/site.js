@@ -222,7 +222,7 @@
       detailBlock('What the outcome does not prove', item.long_term_caution) +
       detailBlock('A question for further research', item.comparison_question) +
       '<section class="dialog-block"><h3>Sources to examine</h3>' + caseSourceHTML(item) + '</section>' +
-      '<p class="dialog-disclaimer">Pilot classification as of 17 October 2026. Sources and interpretation require independent verification. This case does not establish a causal relationship.</p>';
+      '<p class="dialog-disclaimer">Pilot classification as of 18 October 2026. Sources and interpretation require independent verification. This case does not establish a causal relationship.</p>';
     if (typeof dialog.showModal === 'function') {
       dialog.showModal();
     } else {
