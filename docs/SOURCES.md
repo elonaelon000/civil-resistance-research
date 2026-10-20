@@ -1,6 +1,6 @@
 # Annotated sources and evidence map
 
-**Last source review:** 2026-10-18. This is an initial list, not a systematic literature review. URLs below match the pilot CSV. Case coding is *provisional*, and sources often document only part of the causal story.
+**Targeted Albania source review:** 2026-10-20; other cases retain the 2026-10-18 review. This is an initial list, not a systematic literature review. URLs below match the pilot CSV. Case coding is *provisional*, and sources often document only part of the causal story.
 
 ## Scholarly foundation
 
@@ -23,9 +23,10 @@
 - Fitimtar Zekthi (2025): https://www.richtmann.org/journal/index.php/jesr/article/view/14352 — later academic evaluation of political impact and limited sustained institutional change.
 
 ### Albania 2026 (ALB-2026)
-- Reuters, October 17, 2026 (republished by Investing.com): https://www.investing.com/news/world-news/albanian-antigovernment-protesters-clash-with-police-in-tirana-4955402 — fifth day of student-led demonstrations, participant demands and reported clashes.
-- *Al Jazeera*, October 18, 2026: https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily — sixth consecutive day of demonstrations and clashes, and the prime minister's stated refusal to resign.
-- **Coding note:** The case remains `ongoing` / `unresolved`. This is a source-dated snapshot, not a claim that protests have achieved or failed their aims. Counts and accounts of particular incidents differ by source; review them separately before inferring campaign strategy or outcomes.
+- **Current source ledger:** [20 October review](ALBANIA_REVIEW_2026-10-20.md), including Reuters (17 October), AP (20 October), Le Monde (18 October, updated 19 October) and Al Jazeera (18 October). It separates observations, official statements, allegations and coding inference.
+- **Coding:** `uncertain` / `ongoing` / `unresolved`. Incident-level violence is supported; campaign-wide predominance is not established. See the review for the alternative narrower-wave coding.
+- **Earlier citation retained for provenance:** Reuters, 17 October, via [Investing.com](https://www.investing.com/news/world-news/albanian-antigovernment-protesters-clash-with-police-in-tirana-4955402). The current CSV uses an accessible WTAQ republication of the same Reuters report, not an independent corroboration.
+- **Historical comparison:** the review also adds contemporary Nature coverage and OBCT material to the 2018 government announcement and Zekthi retrospective. It distinguishes policy announcements from verified delivery.
 
 ### Serbia 2000 (SRB-2000)
 - OSCE/ODIHR, September 2000: https://odihr.osce.org/odihr/elections/52919 — contemporary disputes about vote reporting.
@@ -61,3 +62,4 @@
 ## Important biases and revisions
 
 A source covering a dramatic protest may overrepresent violent events; retrospective reports can reinterpret earlier events based on later outcomes. Government announcements show commitments, **not** verified implementation. NGO reports, journal articles and international agency analyses also have scopes and methodological limits. Every row needs independent review before academic claims.
+

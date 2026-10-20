@@ -1,7 +1,7 @@
 # Methodology — research protocol (v0.1)
 
 **Project:** Does Civil Resistance Work?  
-**Frozen pilot snapshot:** 2026-10-18  
+**Original pilot snapshot:** 2026-10-18; targeted Albania review: 2026-10-20  
 **Status:** design and exploratory analysis. This is **not** a peer-reviewed causal analysis, a registered protocol, or a systematic sample.
 
 ## 1. Main question and subquestions
@@ -88,3 +88,10 @@ Political neutrality; accurate attribution; no endorsement of parties or candida
 All rows are subject to revision; record revisions explicitly in future commits. The initial work makes **no forecast** about the result of Albania's ongoing 2026 demonstrations.
 
 See [the annotated sources](SOURCES.md), [codebook](../data/README.md), and the [pilot dataset](../data/cases.csv).
+
+
+## 9. Targeted review and measurement uncertainty
+
+On 20 October 2026, ALB-2026 was recoded from `mixed_or_armed` to `uncertain` under the existing dominant-method rule. This distinguishes uncertainty about the whole campaign from evidence that some violent events occurred. Do not infer repertoire from police actions, headlines, or an unrepresentative collection of dramatic incidents. `mixed_or_armed` is a coarse legacy category, not proof of an organized armed campaign.
+
+The [review ledger](ALBANIA_REVIEW_2026-10-20.md) records source roles, alternate coding, campaign-boundary ambiguity and the 2018 comparison. A second-reader review remains outstanding. Other pilot cases retain their original evidence cutoff. No global rates, causal claims or forecasts follow from this revision.

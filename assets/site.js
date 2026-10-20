@@ -15,7 +15,8 @@
   };
   const STYLES = {
     predominantly_nonviolent: 'Predominantly nonviolent',
-    mixed_or_armed: 'Mixed / armed repertoire'
+    mixed_or_armed: 'Mixed / armed repertoire',
+    uncertain: 'Dominant methods uncertain'
   };
   const SCOPE = { all: 'all', albania: 'albania', elsewhere: 'elsewhere' };
 
@@ -222,7 +223,8 @@
       detailBlock('What the outcome does not prove', item.long_term_caution) +
       detailBlock('A question for further research', item.comparison_question) +
       '<section class="dialog-block"><h3>Sources to examine</h3>' + caseSourceHTML(item) + '</section>' +
-      '<p class="dialog-disclaimer">Pilot classification as of 18 October 2026. Sources and interpretation require independent verification. This case does not establish a causal relationship.</p>';
+      '<p class="dialog-disclaimer">Original pilot cutoff: 18 October 2026; Albania review: 20 October. Sources and interpretation require independent verification. This case does not establish a causal relationship.</p>' +
+      (item.case_id === 'ALB-2026' || item.case_id === 'ALB-2018' ? '<p><a href="https://github.com/elonaelon000/civil-resistance-research/blob/main/docs/ALBANIA_REVIEW_2026-10-20.md" target="_blank" rel="noopener noreferrer">Read the dated Albania evidence review ↗</a></p>' : '');
     if (typeof dialog.showModal === 'function') {
       dialog.showModal();
     } else {
@@ -290,3 +292,4 @@
     })
     .catch(loadFailure);
 })();
+

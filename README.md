@@ -20,7 +20,7 @@ This project separates a movement's immediate political result from its longer-t
 
 ## Current status
 
-*Project README updated: 19 October 2026. Research evidence cutoff: 18 October 2026.*
+*Updated: 20 October 2026. Targeted Albania evidence review through 20 October; other cases retain the 18 October cutoff.*
 
 | Component | Status |
 | --- | --- |
@@ -31,7 +31,7 @@ This project separates a movement's immediate political result from its longer-t
 | Research quality | Provisional coding and source verification in progress |
 | Statistical pattern recognition | **Planned**; requires a systematic dataset such as NAVCO 2.1 |
 
-**Albania 2026 — ongoing / unresolved.** The 18 October reporting describes a sixth consecutive day of student and wider anti-government demonstrations in Tirana and continued confrontations. Prime Minister Edi Rama declined calls to resign. There is **no established final outcome**, so the movement is **not** coded as either success or failure ([Reuters, 17 October](https://www.investing.com/news/world-news/albanian-antigovernment-protesters-clash-with-police-in-tirana-4955402); [Al Jazeera, 18 October](https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily)).
+**Albania 2026 — ongoing / unresolved; campaign style uncertain.** The previous `mixed_or_armed` label is not verified at the whole-campaign level. Evidence of violent episodes does not settle the dominant methods across the wider movement. This review does not recode the campaign as predominantly nonviolent or assign success/failure. Read the [dated evidence ledger and 2018–2026 comparison](docs/ALBANIA_REVIEW_2026-10-20.md) for observations, allegations, alternative coding and remaining gaps.
 
 ## Explore the live atlas
 
@@ -109,3 +109,4 @@ For a broader, systematically selected quantitative study, obtain [NAVCO 2.1](ht
 ## Attribution
 
 Research summaries and pilot case coding: repository contributors. Underlying news, articles, datasets and historical records remain the work of their respective authors and publishers.
+
