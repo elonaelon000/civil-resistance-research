@@ -20,7 +20,7 @@ This project separates a movement's immediate political result from its longer-t
 
 ## Current status
 
-*Updated: 20 October 2026. Targeted Albania evidence review through 20 October; other cases retain the 18 October cutoff.*
+*Updated: 3 November 2026. Targeted Albania evidence review through 3 November; other cases retain the 18 October cutoff.*
 
 | Component | Status |
 | --- | --- |
@@ -31,7 +31,7 @@ This project separates a movement's immediate political result from its longer-t
 | Research quality | Provisional coding and source verification in progress |
 | Statistical pattern recognition | **Planned**; requires a systematic dataset such as NAVCO 2.1 |
 
-**Albania 2026 — ongoing / unresolved; campaign style uncertain.** The previous `mixed_or_armed` label is not verified at the whole-campaign level. Evidence of violent episodes does not settle the dominant methods across the wider movement. This review does not recode the campaign as predominantly nonviolent or assign success/failure. Read the [dated evidence ledger and 2018–2026 comparison](docs/ALBANIA_REVIEW_2026-10-20.md) for observations, allegations, alternative coding and remaining gaps.
+**Albania 2026 — ongoing / unresolved; campaign style uncertain.** The [3 November 2026 evidence update](docs/ALBANIA_UPDATE_2026-11-03.md) documents continued campus demonstrations and boycott calls, clashes at some October rallies, police interventions and official monitoring. These developments do not establish final political outcomes or the dominant tactics across the entire campaign. The [20 October review](docs/ALBANIA_REVIEW_2026-10-20.md) remains available for the original classification rationale.
 
 ## Explore the live atlas
 
@@ -60,6 +60,7 @@ civil-resistance-research/
 │   └── 01_explore.ipynb       # Exploratory Python analysis
 ├── docs/
 │   ├── METHODOLOGY.md         # Definitions, hypotheses and limitations
+│   ├── ALBANIA_UPDATE_2026-11-03.md # Latest dated Albania review
 │   └── SOURCES.md             # Annotated evidence and further reading
 ├── requirements.txt
 └── README.md
