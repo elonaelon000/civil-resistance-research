@@ -1,6 +1,6 @@
 # Annotated sources and evidence map
 
-**Targeted Albania source review:** 2026-10-20; other cases retain the 2026-10-18 review. This is an initial list, not a systematic literature review. URLs below match the pilot CSV. Case coding is *provisional*, and sources often document only part of the causal story.
+**Targeted Albania source review:** 2026-11-03; other cases retain the 2026-10-18 review. This is an initial list, not a systematic literature review. URLs below match the pilot CSV. Case coding is *provisional*, and sources often document only part of the causal story.
 
 ## Scholarly foundation
 
@@ -23,7 +23,7 @@
 - Fitimtar Zekthi (2025): https://www.richtmann.org/journal/index.php/jesr/article/view/14352 — later academic evaluation of political impact and limited sustained institutional change.
 
 ### Albania 2026 (ALB-2026)
-- **Current source ledger:** [20 October review](ALBANIA_REVIEW_2026-10-20.md), including Reuters (17 October), AP (20 October), Le Monde (18 October, updated 19 October) and Al Jazeera (18 October). It separates observations, official statements, allegations and coding inference.
+- **Latest source ledger:** [3 November update](ALBANIA_UPDATE_2026-11-03.md), including Reuters (24 October), RTSH (31 October), Ombudsman monitoring (1 November), and university boycott reporting (2–3 November). The [20 October review](ALBANIA_REVIEW_2026-10-20.md) is retained for provenance. Neither review is a comprehensive incident census.
 - **Coding:** `uncertain` / `ongoing` / `unresolved`. Incident-level violence is supported; campaign-wide predominance is not established. See the review for the alternative narrower-wave coding.
 - **Earlier citation retained for provenance:** Reuters, 17 October, via [Investing.com](https://www.investing.com/news/world-news/albanian-antigovernment-protesters-clash-with-police-in-tirana-4955402). The current CSV uses an accessible WTAQ republication of the same Reuters report, not an independent corroboration.
 - **Historical comparison:** the review also adds contemporary Nature coverage and OBCT material to the 2018 government announcement and Zekthi retrospective. It distinguishes policy announcements from verified delivery.
